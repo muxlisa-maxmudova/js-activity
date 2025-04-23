@@ -11,13 +11,12 @@ console.log(result)
 const Good  = () => {
 
     if(result >=6 && result <= 12){
-        document.querySelector('#greeting').innerHTML = `Good morning, ${name}`
+        document.querySelector('#greeting').innerHTML = `Breakfast time, ${name}!`
     }
     else if (result > 12 && result <= 17){
-        document.querySelector('#greeting').innerHTML=`Good afternoon, ${name} `
+        document.querySelector('#greeting').innerHTML=`Lunch time, ${name}!`
     } else {
-        document.querySelector('#greeting').innerHTML=`Good evening, ${name}`
+        document.querySelector('#greeting').innerHTML=`Dinner time, ${name}!`
     }
 }
-
 Good()
